@@ -1,0 +1,44 @@
+Task instruction 
+Compulsory Task
+Follow these instructions:
+Within your Dropbox folder, in the same directory as this pdf, there should be
+a folder named ticTacToe. Download the ticTacToe folder along with the
+ticTacToe.js and index.html files within it and save them in the directory that
+you will be working in.
+Within the ticTacToe.js file are the following variables and a function by the
+name of evaluatePlay.:
+// Define 2D-arrays
+const rowWin = [
+["O", "O", "O"],
+["-", "-", "-"],
+["-", "-", "-"]
+];
+const colWin = [
+["-", "X", "-"],
+["-", "X", "-"],
+["-", "X", "-"]
+];
+const diagonalWin = [
+["-", "-", "O"],
+["-", "O", "-"],
+["O", "-", "-"]
+]
+const diagonalWinInverse = [
+["X", "-", "-"],
+["-", "X", "-"],
+["-", "-", "X"]
+];
+Within the function, write the code that will determine whether a winning
+play has been made or not.
+You may add additional parameters
+The function should log the results to the console - that X has won and O has
+lost, or vice versa. The output of the following:
+console.log(diagonalWinInverse);
+Should be as follows:
+X Won
+O Lost
+Given that the game of tic tac toe is on a fixed grid of 3 X 3, you may hard
+code the positions when validating your grid.
+Your function should be able to determine the winner of all the 2D arrays
+that are defined in the ticTacToe.js file
+Compile, save, and run your program.
